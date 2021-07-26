@@ -10,5 +10,4 @@ spec:
     port: 6000
     targetPort: 5000
   type: LoadBalancer
-  externalIPs:
-  - 192.168.64.106
+

@@ -7,7 +7,7 @@ spec:
     app: hello-python3
   ports:
   - protocol: "TCP"
-    port: 80
+    port: 6000
     targetPort: 5000
   type: LoadBalancer
   externalIPs:

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-python3
-        image: io/library/test:latest
+        image: joshua/pyrandom
         imagePullPolicy: Always
         ports:
         - containerPort: 5000

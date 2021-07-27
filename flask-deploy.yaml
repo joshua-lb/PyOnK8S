@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-python3
-        image: docker.io/library/test:latest
+        image: io/library/test:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
